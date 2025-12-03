@@ -1,0 +1,38 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.quote-box {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  background-color: #e0e0e0;
+}
+
+.quote-text {
+  font-size: 1.5rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
