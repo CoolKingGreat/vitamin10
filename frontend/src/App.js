@@ -6,7 +6,7 @@ function App() {
 
   const fetchQuote = async () => {
     try {
-      const response = await fetch('http://127.0.0.1:5000/api/quote');
+      const response = await fetch('https://vitamin10-vq97.onrender.com/api/quote');
       const data = await response.json();
       setQuote(data.quote);
     } catch (error) {
